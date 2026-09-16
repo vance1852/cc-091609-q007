@@ -1,0 +1,1 @@
+{"reports":[{"id":"report-a","institution":"hospital-east","privacyKey":"p-71","product":"中成药甲","lot":"lot-8","event":"肝功能异常"},{"id":"report-b","institution":"hospital-west","privacyKey":"p-71","product":"中成药甲","lot":null,"event":"肝功能异常随访"},{"id":"report-c","institution":"clinic-2","privacyKey":"p-92","product":"中成药甲","manufacturer":"maker-b","event":"肝功能异常"}]}
