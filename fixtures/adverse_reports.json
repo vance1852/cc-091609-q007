@@ -1,1 +1,67 @@
-{"reports":[{"id":"report-a","institution":"hospital-east","privacyKey":"p-71","product":"中成药甲","lot":"lot-8","event":"肝功能异常"},{"id":"report-b","institution":"hospital-west","privacyKey":"p-71","product":"中成药甲","lot":null,"event":"肝功能异常随访"},{"id":"report-c","institution":"clinic-2","privacyKey":"p-92","product":"中成药甲","manufacturer":"maker-b","event":"肝功能异常"}]}
+{
+  "reports": [
+    {
+      "id": "report-a",
+      "institution": "hospital-east",
+      "privacyKey": "p-71",
+      "product": "中成药甲",
+      "lot": "lot-8",
+      "event": "肝功能异常",
+      "onsetDate": "2026-08-20",
+      "recordedAt": "2026-08-22T09:10:00"
+    },
+    {
+      "id": "report-b",
+      "institution": "hospital-west",
+      "privacyKey": "p-71",
+      "product": "中成药甲",
+      "lot": null,
+      "event": "肝功能异常随访",
+      "recordedAt": "2026-08-30T15:40:00"
+    },
+    {
+      "id": "report-c",
+      "institution": "clinic-2",
+      "privacyKey": "p-92",
+      "product": "中成药甲",
+      "manufacturer": "maker-b",
+      "approval": null,
+      "event": "肝功能异常",
+      "lot": "lot-b2",
+      "onsetDate": "2026-08-25",
+      "recordedAt": "2026-08-27T11:00:00"
+    },
+    {
+      "id": "report-d",
+      "institution": "hospital-north",
+      "privacyKey": "p-103",
+      "product": "中成药甲",
+      "lot": "lot-8",
+      "event": "肝功能异常",
+      "ingredientLots": ["raw-angelica-5", "raw-licorice-9"],
+      "onsetDate": "2026-09-02",
+      "recordedAt": "2026-09-04T08:30:00"
+    },
+    {
+      "id": "report-e",
+      "institution": "hospital-east",
+      "privacyKey": "p-118",
+      "product": "中成药甲",
+      "lot": "lot-8",
+      "event": "黄疸",
+      "ingredientLots": ["raw-angelica-5"],
+      "onsetDate": "2026-09-05",
+      "recordedAt": "2026-09-06T10:00:00"
+    },
+    {
+      "id": "report-f",
+      "institution": "hospital-central",
+      "privacyKey": "p-118",
+      "product": "中成药甲",
+      "lot": null,
+      "event": "急性肝损伤随访",
+      "followsReport": "report-e",
+      "recordedAt": "2026-09-12T16:20:00"
+    }
+  ]
+}
